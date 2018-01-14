@@ -1,0 +1,15 @@
+body {
+	background-color: #fff;
+	font-family: Georgia;
+	color: #808080;
+}
+
+h1 {
+	text-align: center;
+	color: #191970;
+}
+
+#slogan {
+	text-align: center;
+	font-style: italic;
+}
