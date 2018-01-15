@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:900|Open+Sans);
+
+body {
+	background-color: #FFFAF0;
+	font-family: 'Open Sans', sans-serif;
+	color: #696969;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin:	2em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+h1, h3 {
+	font-family: 'Merriweather', serif;
+	color: #2F4F4F;
+}
+
+#slogan {
+	text-align: center;
+	font-style: regular;
+	font-size: 1.5em;
+}
