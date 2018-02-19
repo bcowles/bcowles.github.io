@@ -1,28 +1,49 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:900|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple|Open+Sans);
 
 body {
-	background-color: #FFFAF0;
 	font-family: 'Open Sans', sans-serif;
-	color: #696969;
+	color: #000;
 	font-size: 14px;
-	line-height: 1em;
+	line-height: 1.5em;
 	margin:	2em;
 }
 
 h1 {
-	text-align: center;
-	font-size: 2.5em;
+	font-weight: bold;
+	font-size:60px;
+	text-align:center;
+	color:#fff;
+	margin:75px 0 0;
 }
 
-h1, h3 {
-	font-family: 'Merriweather', serif;
+h1, h2, h3 {
+	font-family: 'Homemade Apple', serif;
 	color: #2F4F4F;
 }
 
-#slogan {
-	text-align: center;
-	font-style: regular;
-	font-size: 1.5em;
+.background {
+	background: url(../images/bakingbackground.jpg) no-repeat center center scroll; 
+	border: 1px black solid;
+	padding: 20px;
+	background-size: cover;
+	height:250px;
+	padding:20px 0;
+	line-height: 6em;
+}
+
+.mission {
+	width:42%;
+	margin:1.5%;
+/*	background-color: #E89C6C;
+	border: 1px black solid;*/
+	padding: 20px;
+	float: left;
+}
+
+.mission img {
+	max-width: 450px;
+	display: block;
+	margin:auto;
 }
 
 img {
@@ -30,38 +51,41 @@ img {
 	height: auto;
 }
 
-header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 nav {
-	background-color: #E8C66A;
+	background-color: #FFFFF0;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
 }
 
-#two_column {
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Homemade Apple', serif;
+	margin: 0 30px;
+}
+/*
+#monthlycontent {
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
-
-#left {
-	background-color: violet;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
+*/
+#monthlycontent img {
+	max-width: 150px;
+	display: block;
+	margin:auto;
+	max-height: 100px;
 }
 
-#right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 52%;
+#monthlycontent h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+#monthlycontent h3 {
+	text-align: center;
+	font-size: 1.5em;
 }
 
 .clearfix:after {
@@ -73,39 +97,41 @@ nav {
 	height: 0;
 }
 
+.content {
+	width:27%;
+	margin:1%;
+	background-color: #FFE2B8;
+/*	border: 1px black solid;*/
+	padding: 20px;
+	float: left;
+}
+/*
 aside {
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
-}
-
+}*/
+/*
 article {
 	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
 }
-
+*/
 footer {
-	background-color: #FF957E;
+	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 0 0 0 20px;
 }
-
+/*
 section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 }
-
-div {
+*/
+.history {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: 20px;
-}
-
-a {
-	text-decoration: none;
-	color: #000;
-	border-bottom: 1px solid #000;
-	padding-bottom: 2px;
 }
