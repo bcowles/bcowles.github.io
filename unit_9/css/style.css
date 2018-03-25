@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple|Open+Sans);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin:	2em;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 3.5em;
+	line-height: 4em;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Homemade Apple', serif;
+	color: #2F4F4F;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+	padding: .5%;
+}
+
+h4 {
+	text-align: center;
+	font-size: 1.15em;
+}
+
+h5 {
+	font-variant: small-caps;
+	font-size: 1.15em;
+	padding: 0;
+	margin: 0;
+}
+
+.background {
+	background: url(../images/bakingbackground.jpg) no-repeat center center scroll; 
+	border: 1px black solid;
+	background-size: cover;
+	height: 20%;
+	padding: 1% 0;
+	line-height: 6em;
+}
+
+.mission {
+	width: 46%;
+	padding: 1%;
+	float: left;
+}
+
+.mission img {
+	max-width: 100%;
+	display: block;
+	margin: 1%;
+}
+
+img {
+	max-width: 50%;
+	height: auto;
+}
+
+nav {
+	background-color: #FFFFF0;
+	border: 1px black solid;
+	padding: 1%;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	text-align:	center;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Homemade Apple', serif;
+	margin: 0 4%;
+}
+
+#monthlycontent img {
+	max-width: 75%;
+	display: block;
+	margin:auto;
+}
+
+#monthlycontent h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.content {
+	width: 27%;
+	margin: 1%;
+	border: 1px black solid;
+	padding: 2%;
+	float: left;
+}
+
+footer {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 0 0 0 1%;
+}
+
+.history {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+}
+
+#cookie img {
+	float: right;
+	padding: .5%;
+}
+
+
+@media only screen and (max-width: 980px) {
+  nav {
+    float: none;
+  } 
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
+  
+  p {
+  	font-size: .90em;
+  }
+
+  li {
+  	font-size: .90em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    display: block;
+    text-align: center;
+    font-size: 1.75em;
+  }
+
+  nav {
+  	display: inline-block;
+  	text-align: center;
+  	font-size: 1em;
+  }
+  
+  h2 {
+    font-size: 1.25em;
+    display: block;
+  }
+  
+  p, ul {
+    margin: 1.8em .6em 0;
+  }
+  
+  li {
+    display: none;
+  }
+  
+  nav a {
+    margin: 0 1em 1em;
+  }
+  /*
+  img {
+    width: 230px;
+  }*/
+  
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+
+  #monthlycontent h3 {
+  	font-size: 1.25em;
+  }
+
+  #monthlycontent img {
+  	max-width: 60%;
+  }
+
+  .content {
+  	float: none;
+  	width: 90%;
+  }
+
+  #history {
+  	display: none;
+  }
+
+  #cookie h2 {
+  	font-size: 1.25em;
+  	display: block;
+  }
+
+  #cookie img {
+	display: none;
+  }
+
+}
